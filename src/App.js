@@ -1,11 +1,10 @@
 import './App.css';
+import {Login} from './components/bearpass/login'
 
 function App() {
   return (
-    <div className="App">
-      <div className="content">
-        <h1>App Component</h1>
-      </div>
+    <div className="container">
+        <Login/>
     </div>
   );
 }
