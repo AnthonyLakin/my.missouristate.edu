@@ -1,0 +1,11 @@
+header {
+    background-color: var(--maroon);
+    padding: .7em;
+}
+
+header > img {
+    width: auto;
+    height: 1.5em;
+    margin-left: 20%;
+    transition: margin-left .5s ease-in-out;
+}

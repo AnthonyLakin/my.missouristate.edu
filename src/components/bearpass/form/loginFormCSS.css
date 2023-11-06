@@ -1,0 +1,42 @@
+form {
+    margin-top: 6em;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    width: 23em;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+input {
+    margin: .3em 0;
+    height: 2em;
+}
+
+#submit {
+    background-color: var(--maroon);
+    color: var(--white);
+    border: none;
+    margin: 1em 0;
+    height: 2.5em;
+}
+
+#submit:hover {
+    background-color: var(--hoverColor);
+    cursor: pointer;
+}
+
+p > a:hover {
+    color: var(--hoverColor);
+}
+
+form span {
+    text-align: center;
+}
+
+form span a {
+    color: var(--maroon);
+}

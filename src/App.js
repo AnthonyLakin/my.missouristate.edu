@@ -1,9 +1,11 @@
 import './App.css';
 import {Login} from './components/bearpass/login'
+import  {Header} from './components/header/header'
 
 function App() {
   return (
     <div className="container">
+        <Header/>
         <Login/>
     </div>
   );

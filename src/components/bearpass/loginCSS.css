@@ -1,0 +1,21 @@
+.head {
+    padding: 1.5em 0 1em;
+    border-bottom: solid 1px #0a0a0a60;
+    text-align: center;
+}
+
+.head > img {
+    width: auto;
+    height: 4em;
+
+}
+
+Footer {
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    position: absolute;
+}
+
+
+
