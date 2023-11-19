@@ -7,7 +7,7 @@ export class LoginForm extends Component {
             <form>
                 <div>
                     <input type={"text"} placeholder={"Login"} id={"login"} />
-                    <input type={"text"} placeholder={"Password"} id={"password"} />
+                    <input type={"password"} placeholder={"Password"} id={"password"} />
                     <input value={"Log in"} type={"submit"} id={"submit"} />
                     <span>
             <p>
