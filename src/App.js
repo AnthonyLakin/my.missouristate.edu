@@ -1,13 +1,20 @@
 import './App.css';
 import {Login} from './components/bearpass/login'
-import  {Header} from './components/header/header'
+import {LandingPage} from "./components/landing/landingPage";
+import { BrowserRouter, Route, Routes  } from "react-router-dom";
 
 function App() {
   return (
-    <div className="container">
-        <Header/>
-        <Login/>
-    </div>
+      <BrowserRouter>
+        <div className="container">
+            <Routes >
+                <Route exact path='/' element={<LandingPage/>}/>
+                <Route  path='*' element={<LandingPage/>}/>
+                <Route path='/bearpass' element={<Login/>}/>
+            </Routes >
+
+        </div>
+      </BrowserRouter>
   );
 }
 

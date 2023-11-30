@@ -1,0 +1,78 @@
+.parent {
+    width: 50%;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    /*
+    background-color: red;
+    */
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+.parent > * {
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 1em auto;
+}
+
+.parent img {
+
+    left: 0;
+    right: 0;
+    margin: 2em auto;
+    width: auto;
+}
+
+#msuLogo {
+    height: 7em;
+    margin: 3.5em auto;
+
+}
+
+.parent #blackBoard {
+    height: 4em;
+
+}
+
+#blackBoard {
+    height: 5em;
+}
+
+.card {
+    background-color: var(--white);
+    width: 100%;
+    box-shadow: 0 2px 2px -1px #00000020;
+    padding: 2em 1em;
+}
+
+.card * {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.card p {
+    color: #00000090;
+}
+
+.parent #blackBoard2 {
+    height: 3em;
+}
+
+#foot {
+    margin-top: 5em;
+}
+
+#foot * {
+    margin: 0;
+}
+
+#foot p, #foot a {
+    font-size: .8em;
+}

@@ -11,16 +11,20 @@ form > div {
     margin: auto;
 }
 
-input {
-    margin: .3em 0;
-    height: 2em;
+
+
+.info {
+    border: solid 1px #00000080;
+    text-indent: .5em;
 }
 
 #submit {
     background-color: var(--maroon);
+    padding: 0 1em;
+    font-weight: bolder;
     color: var(--white);
     border: none;
-    margin: 1em 0;
+    /*margin: 1em 0;*/
     height: 2.5em;
 }
 
@@ -29,7 +33,14 @@ input {
     cursor: pointer;
 }
 
-p > a:hover {
+input, button {
+    margin: .3em 0;
+    padding: .2em 0;
+    height: 2em;
+    border-radius: .1em;
+}
+
+.redLinks:hover {
     color: var(--hoverColor);
 }
 
@@ -37,6 +48,6 @@ form span {
     text-align: center;
 }
 
-form span a {
+.redLinks {
     color: var(--maroon);
 }

@@ -14,8 +14,8 @@
     "yargs": "^17.7.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "set PORT=80 && react-scripts start",
+    "build": "set PORT=80 && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -40,6 +40,6 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-property-in-object": "^7.22.11",
-    "react-router-dom": "^6.18.0"
+    "react-router-dom": "^6.20.0"
   }
 }
