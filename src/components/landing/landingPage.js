@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import "./landingPageCSS.css"
-import MSULogo from "../../assets/MSU_Logo_Full.webp"
+import MSULogo from "../../assets/MSU_Logo_Full-modified.png"
 import BbLogo from "../../assets/Bb_learn_small.png"
 import Bb2Logo from "../../assets/Bb_Signature_StdMed.png"
 

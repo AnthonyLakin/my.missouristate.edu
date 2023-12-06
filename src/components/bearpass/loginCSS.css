@@ -17,5 +17,9 @@ Footer {
     position: absolute;
 }
 
+* {
+    overflow-x: hidden;
+}
+
 
 
